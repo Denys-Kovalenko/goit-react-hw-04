@@ -1,0 +1,12 @@
+.wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+.button {
+  padding: 10px 20px;
+  background-color: #015085;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

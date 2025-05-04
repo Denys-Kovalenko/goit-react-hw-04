@@ -1,0 +1,11 @@
+.card {
+  width: 100%;
+  height: 250px;
+  cursor: pointer;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.03);
+}
