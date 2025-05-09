@@ -69,7 +69,7 @@ function App() {
 
   return (
     <div>
-      <Toaster position="top-right" />
+      <Toaster position="top-center" />
       <SearchBar onSubmit={handleSearch} />
       {error && <ErrorMessage message={error} />}
       <ImageGallery images={images} onImageClick={setSelectedImage} />
